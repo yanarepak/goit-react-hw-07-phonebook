@@ -23,7 +23,7 @@
 
 .input:hover,
 .input:focus {
-  border-color: #4bbf45;
+  border-color: #fb8a34;
 }
 
 .btn {
@@ -38,8 +38,8 @@
 
 .btn:hover,
 .btn:focus {
-  color: #fafafa;
-  background-color: #4bbf45;
+  color: #ffffff;
+  background-color: #fb8a34;
   box-shadow: 4px 4px 9px #201e20;
 }
 

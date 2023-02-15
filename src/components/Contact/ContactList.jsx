@@ -1,8 +1,10 @@
 import PT from 'prop-types';
 import { ContactItem } from './ContactItem';
+import css from './ContactList.module.css';
 
 export const ContactList = ({ contacts }) => {
   return (
+    <div className={css.wrap}>
     <ul>
       {contacts.map(({ id, name, phone }) => {
         return (
@@ -13,6 +15,7 @@ export const ContactList = ({ contacts }) => {
         );
       })}
     </ul>
+    </div>
   );
 };
 
